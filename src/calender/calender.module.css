@@ -1,0 +1,49 @@
+.calendar {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  background-color: aqua;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day_of_week {
+  font-weight: bold;
+  text-align: center;
+}
+
+.empty {
+  visibility: hidden;
+}
+
+.day {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 5px;
+}
+
+.day:hover {
+  background-color: #eee;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
